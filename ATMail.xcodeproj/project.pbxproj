@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610089C30AD27522001B15CA /* ATMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 610089C20AD27522001B15CA /* ATMultipartBody.m */; };
+		6103DD2B0EFFDEA000E739A7 /* DefaultMessagesColumns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6103DD2A0EFFDE9F00E739A7 /* DefaultMessagesColumns.plist */; };
+		610E301B0F0B88CB0056E834 /* ATItemsPane.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 610E30190F0B88CB0056E834 /* ATItemsPane.h */; };
+		610E301C0F0B88CB0056E834 /* ATItemsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 610E301A0F0B88CB0056E834 /* ATItemsPane.m */; };
+		6113910B0CD7771000699353 /* iana-token.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6113910A0CD7771000699353 /* iana-token.plist */; };
+		611C48650D923CA700C42357 /* ATFilterEditor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 611C48630D923CA700C42357 /* ATFilterEditor.h */; };
+		611C48660D923CA700C42357 /* ATFilterEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 611C48640D923CA700C42357 /* ATFilterEditor.m */; };
+		611C486D0D923CCE00C42357 /* ATFilter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 611C486B0D923CCE00C42357 /* ATFilter.h */; };
+		611C486E0D923CCE00C42357 /* ATFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 611C486C0D923CCE00C42357 /* ATFilter.m */; };
+		611C48720D923EC600C42357 /* ATFilterEditorWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 611C48710D923EC600C42357 /* ATFilterEditorWindow.nib */; };
+		611C49BF0D92938700C42357 /* ATFilterEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611C49BD0D92938700C42357 /* ATFilterEditorWindowController.m */; };
+		611C49C00D92938800C42357 /* ATFilterEditorWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 611C49BE0D92938700C42357 /* ATFilterEditorWindowController.h */; };
+		61253FDE0AC5385A00A9C35D /* ATContentTypeFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61253FDD0AC5385A00A9C35D /* ATContentTypeFieldBody.m */; };
+		612546100D1CA71C006420F9 /* ATMessageOutlinePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6125460F0D1CA71C006420F9 /* ATMessageOutlinePane.nib */; };
+		612546270D1CA764006420F9 /* ATMessageOutlinePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 612546260D1CA764006420F9 /* ATMessageOutlinePane.m */; };
+		6125475B0D1CD4DC006420F9 /* ATMessageTextPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6125475A0D1CD4DC006420F9 /* ATMessageTextPane.nib */; };
+		6125475E0D1CD4E6006420F9 /* ATMessageTextPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125475D0D1CD4E6006420F9 /* ATMessageTextPane.m */; };
+		612547600D1CD57C006420F9 /* ATMessageImagePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6125475F0D1CD57C006420F9 /* ATMessageImagePane.nib */; };
+		612547630D1CD585006420F9 /* ATMessageImagePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 612547610D1CD585006420F9 /* ATMessageImagePane.m */; };
+		612B585909AC9197000FA902 /* ATInternetMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 612B585809AC9197000FA902 /* ATInternetMessage.m */; };
+		612B587B09AC951C000FA902 /* ATHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 612B587A09AC951C000FA902 /* ATHeaderField.m */; };
+		612FD7F50D1A9EC900D1B126 /* ATMessageTablePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 612FD7F40D1A9EC900D1B126 /* ATMessageTablePane.nib */; };
+		612FD7F80D1A9EE400D1B126 /* ATMessageTablePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 612FD7F70D1A9EE400D1B126 /* ATMessageTablePane.m */; };
+		61315CB60AC2BE4B00A67790 /* ATMIMETokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 61315CB50AC2BE4B00A67790 /* ATMIMETokenScanner.m */; };
+		6133577F0AB6F7A700799123 /* ATPop3MessageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6133577E0AB6F7A700799123 /* ATPop3MessageDownloader.m */; };
+		6136EBED0B1071AD0016A88D /* ATMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6136EBEC0B1071AD0016A88D /* ATMessageModel.m */; };
+		6160FC890C958F9D00618112 /* ATMailSpool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6160FC880C958F9D00618112 /* ATMailSpool.m */; };
+		617E19660D4F2E120085FFB2 /* ATMailDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617E19640D4F2E120085FFB2 /* ATMailDocumentController.m */; };
+		61A63E9F0CC0F20E00566DD6 /* ATMailSpoolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A63E9E0CC0F20D00566DD6 /* ATMailSpoolModel.m */; };
+		61B650D709E9D7BF00D456E4 /* ATCFWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B650D609E9D7BF00D456E4 /* ATCFWS.m */; };
+		61B650E209E9D88200D456E4 /* ATFWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B650E109E9D88200D456E4 /* ATFWS.m */; };
+		61B6510109EA76D400D456E4 /* ATCtext.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6510009EA76D400D456E4 /* ATCtext.m */; };
+		61B6510A09EA77BD00D456E4 /* ATQuotedPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6510909EA77BD00D456E4 /* ATQuotedPair.m */; };
+		61B6B98709CC2107005BDFE6 /* ATTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6B98609CC2107005BDFE6 /* ATTokenScanner.m */; };
+		61B6C0EB09E89798008D9F0C /* ATAddrSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6C0EA09E89798008D9F0C /* ATAddrSpec.m */; };
+		61B6C0F709E8A45A008D9F0C /* ATNameAddr.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6C0F609E8A45A008D9F0C /* ATNameAddr.m */; };
+		61B6C11809E8A6D8008D9F0C /* ATAngleAddr.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6C11709E8A6D8008D9F0C /* ATAngleAddr.m */; };
+		61B6C1E309E8BDE6008D9F0C /* ATGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6C1E209E8BDE6008D9F0C /* ATGroup.m */; };
+		61B6C22E09E8CC33008D9F0C /* ATAddressListFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6C22D09E8CC33008D9F0C /* ATAddressListFieldBody.m */; };
+		61B726A609EBBA550068C79E /* ATTimeOfDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B726A509EBBA550068C79E /* ATTimeOfDay.m */; };
+		61B73B640A9DADA5006D1C0D /* ATMailAccountWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 61B73B630A9DADA5006D1C0D /* ATMailAccountWindow.nib */; };
+		61B826F40BC90C9F004D8F19 /* ATMessageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B826F30BC90C9F004D8F19 /* ATMessageEntity.m */; };
+		61B8CF5C09F4BDBF0028DD47 /* ATPathFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B8CF5B09F4BDBF0028DD47 /* ATPathFieldBody.m */; };
+		61B8CFA509F4C2010028DD47 /* ATReceivedFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B8CFA409F4C2010028DD47 /* ATReceivedFieldBody.m */; };
+		61B8CFEF09F4CD9D0028DD47 /* ATMsgID.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B8CFEE09F4CD9D0028DD47 /* ATMsgID.m */; };
+		61B8F1AF09CD834400A392C9 /* ATComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B8F1AE09CD834400A392C9 /* ATComment.m */; };
+		61B9AE5B09E7934F00C8908B /* ATDateTimeFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9AE5A09E7934F00C8908B /* ATDateTimeFieldBody.m */; };
+		61B9AEFD09E7BDA700C8908B /* ATUnstructuredFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9AEFC09E7BDA700C8908B /* ATUnstructuredFieldBody.m */; };
+		61B9AFD609E7F00A00C8908B /* ATMailboxListFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9AFD509E7F00A00C8908B /* ATMailboxListFieldBody.m */; };
+		61BD11B50C8C24C600A8A74A /* ATInternetMessageLineScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BD11B40C8C24C600A8A74A /* ATInternetMessageLineScanner.m */; };
+		61BD9F5A0AB41E0800474DD7 /* ATPop3Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BD9F590AB41E0800474DD7 /* ATPop3Core.m */; };
+		61C02D630AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C02D620AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.m */; };
+		61C02D7D0AC6B82800D98EB8 /* ATContentIDFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C02D7C0AC6B82800D98EB8 /* ATContentIDFieldBody.m */; };
+		61C02DBB0AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C02DBA0AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.m */; };
+		61C0A20709C2BFAB00FB01CD /* ATFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0A20609C2BFAB00FB01CD /* ATFieldBody.m */; };
+		61C41DAA0AF454DE003E8038 /* ATMessageDownloaderWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 61C41DA80AF454DE003E8038 /* ATMessageDownloaderWindow.nib */; };
+		61C41DAD0AF45614003E8038 /* ATMessageDownloaderWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C41DAC0AF45614003E8038 /* ATMessageDownloaderWindowController.m */; };
+		61C5CBC80AC408B800584BE4 /* ATMIMEVersionFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C5CBC70AC408B800584BE4 /* ATMIMEVersionFieldBody.m */; };
+		61C9FE9B0C4A643600B2003F /* ATBodyTextRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C9FE9A0C4A643600B2003F /* ATBodyTextRepresentation.m */; };
+		61CACA6C09AFF99300A2DBDA /* ATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CACA6B09AFF99300A2DBDA /* ATAppDelegate.m */; };
+		61CB15E80D1F8B85001E64F7 /* ATEntityHeaderPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 61CB15E70D1F8B85001E64F7 /* ATEntityHeaderPane.nib */; };
+		61CB15EB0D1F8BDA001E64F7 /* ATEntityHeaderPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CB15EA0D1F8BDA001E64F7 /* ATEntityHeaderPane.m */; };
+		61CB15F80D1F8F0D001E64F7 /* ATEntityOutlinePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 61CB15F70D1F8F0D001E64F7 /* ATEntityOutlinePane.nib */; };
+		61CB17490D1F90AB001E64F7 /* ATEntityOutlinePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CB17480D1F90AB001E64F7 /* ATEntityOutlinePane.m */; };
+		61CCE8640D1E6D76005381FE /* ATMessagesPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE8630D1E6D76005381FE /* ATMessagesPane.m */; };
+		61CCE9EC0D1E734D005381FE /* ATMailPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE9EB0D1E734D005381FE /* ATMailPane.m */; };
+		61CCE9FB0D1E7550005381FE /* ATMessagePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE9FA0D1E7550005381FE /* ATMessagePane.m */; };
+		61DB4C2B0D52D86F009B9E7C /* ATMailboxesOutlineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DB4C290D52D86F009B9E7C /* ATMailboxesOutlineDataSource.m */; };
+		61DB4EE50D5337E0009B9E7C /* ATMailboxesOutlinePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DB4EE30D5337E0009B9E7C /* ATMailboxesOutlinePane.m */; };
+		61DB4F240D533BA9009B9E7C /* ATMailboxesOutlinePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 61DB4F230D533BA9009B9E7C /* ATMailboxesOutlinePane.nib */; };
+		61DC713B0E1722AD008A2D85 /* ATMessageOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DC71390E1722AD008A2D85 /* ATMessageOutlineView.m */; };
+		61DC713C0E1722AE008A2D85 /* ATMessageOutlineView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61DC713A0E1722AD008A2D85 /* ATMessageOutlineView.h */; };
+		61E08A830D51E80800677766 /* ATMailbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E08A810D51E80800677766 /* ATMailbox.m */; };
+		61E58CF60F0C54160060BFA3 /* ATThreadsModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61E58CF40F0C54160060BFA3 /* ATThreadsModel.h */; };
+		61E58CF70F0C54160060BFA3 /* ATThreadsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E58CF50F0C54160060BFA3 /* ATThreadsModel.m */; };
+		61E9F3730C90FEC700F7F6CB /* ATMultipartTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E9F3720C90FEC700F7F6CB /* ATMultipartTokenScanner.m */; };
+		61EB24F80A95CF7300683DEA /* ATMailAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB24F70A95CF7300683DEA /* ATMailAccount.m */; };
+		61EB253D0A95D65100683DEA /* ATMailAccountWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EB253B0A95D65100683DEA /* ATMailAccountWindowController.m */; };
+		61ECC71409F3B01A0006E6C3 /* ATKeywordsFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ECC71309F3B01A0006E6C3 /* ATKeywordsFieldBody.m */; };
+		61ECC73809F3B8520006E6C3 /* ATMailboxFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ECC73709F3B8520006E6C3 /* ATMailboxFieldBody.m */; };
+		61ECC7B509F3CE950006E6C3 /* ATBccFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ECC7B409F3CE950006E6C3 /* ATBccFieldBody.m */; };
+		61ECC7EE09F3D2A60006E6C3 /* ATMsgIDFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ECC7ED09F3D2A60006E6C3 /* ATMsgIDFieldBody.m */; };
+		61F15B390EE175D200D4875D /* ATMessagesModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61F15B370EE175D200D4875D /* ATMessagesModel.h */; };
+		61F15B3A0EE175D200D4875D /* ATMessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F15B380EE175D200D4875D /* ATMessagesModel.m */; };
+		61F487060D1FDEC50054DD69 /* ATHTMLPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F487050D1FDEC50054DD69 /* ATHTMLPane.m */; };
+		61F4870A0D1FDF550054DD69 /* ATHTMLPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 61F487090D1FDF550054DD69 /* ATHTMLPane.nib */; };
+		61F487230D1FE1C80054DD69 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F487220D1FE1C80054DD69 /* WebKit.framework */; };
+		61F4C2A00CD7092E001AC8E7 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F4C29F0CD7092E001AC8E7 /* MyTextView.m */; };
+		61F838760AEE45B300820D75 /* ATEncodedWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F838750AEE45B300820D75 /* ATEncodedWord.m */; };
+		61F846970CDDE7EF00C4F50A /* ATOctetStreamRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F846960CDDE7EF00C4F50A /* ATOctetStreamRepresentation.m */; };
+		61F8EAA80CBFA33700A7DB3F /* ATMailDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F8EAA70CBFA33700A7DB3F /* ATMailDocumentWindowController.m */; };
+		61FBB2C10CE52C2F00C89506 /* ATContentDispositionFieldBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FBB2C00CE52C2F00C89506 /* ATContentDispositionFieldBody.m */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		8D15AC2E0486D014006FF6A4 /* ATMailDocumentWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* ATMailDocumentWindow.nib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* ATMailDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* ATMailDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		B8C943BF21D5097F00D5F2BF /* ATBase64Processor.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C943B721D5097F00D5F2BF /* ATBase64Processor.m */; };
+		B8C943C021D5097F00D5F2BF /* ATQuotedPrintableDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C943BA21D5097F00D5F2BF /* ATQuotedPrintableDecoder.m */; };
+		B8C943C121D5097F00D5F2BF /* ATIDPool.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C943BC21D5097F00D5F2BF /* ATIDPool.m */; };
+		B8C943C221D5097F00D5F2BF /* ATBase64Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C943BD21D5097F00D5F2BF /* ATBase64Decoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		618EA25F0D3B86440045791B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				611C48650D923CA700C42357 /* ATFilterEditor.h in CopyFiles */,
+				611C486D0D923CCE00C42357 /* ATFilter.h in CopyFiles */,
+				611C49C00D92938800C42357 /* ATFilterEditorWindowController.h in CopyFiles */,
+				61DC713C0E1722AE008A2D85 /* ATMessageOutlineView.h in CopyFiles */,
+				61F15B390EE175D200D4875D /* ATMessagesModel.h in CopyFiles */,
+				610E301B0F0B88CB0056E834 /* ATItemsPane.h in CopyFiles */,
+				61E58CF60F0C54160060BFA3 /* ATThreadsModel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* ATMailDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* ATMailDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* ATMail_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMail_Prefix.pch; sourceTree = "<group>"; };
+		610089C10AD27522001B15CA /* ATMultipartBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMultipartBody.h; sourceTree = "<group>"; };
+		610089C20AD27522001B15CA /* ATMultipartBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMultipartBody.m; sourceTree = "<group>"; };
+		6103DD2A0EFFDE9F00E739A7 /* DefaultMessagesColumns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultMessagesColumns.plist; sourceTree = "<group>"; };
+		610E30190F0B88CB0056E834 /* ATItemsPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATItemsPane.h; sourceTree = "<group>"; };
+		610E301A0F0B88CB0056E834 /* ATItemsPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATItemsPane.m; sourceTree = "<group>"; };
+		6113910A0CD7771000699353 /* iana-token.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iana-token.plist"; sourceTree = "<group>"; };
+		611C48630D923CA700C42357 /* ATFilterEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFilterEditor.h; sourceTree = "<group>"; };
+		611C48640D923CA700C42357 /* ATFilterEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFilterEditor.m; sourceTree = "<group>"; };
+		611C486B0D923CCE00C42357 /* ATFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFilter.h; sourceTree = "<group>"; };
+		611C486C0D923CCE00C42357 /* ATFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFilter.m; sourceTree = "<group>"; };
+		611C48710D923EC600C42357 /* ATFilterEditorWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATFilterEditorWindow.nib; sourceTree = "<group>"; };
+		611C49BD0D92938700C42357 /* ATFilterEditorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATFilterEditorWindowController.m; sourceTree = "<group>"; };
+		611C49BE0D92938700C42357 /* ATFilterEditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATFilterEditorWindowController.h; sourceTree = "<group>"; };
+		61253FDC0AC5385A00A9C35D /* ATContentTypeFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContentTypeFieldBody.h; sourceTree = "<group>"; };
+		61253FDD0AC5385A00A9C35D /* ATContentTypeFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContentTypeFieldBody.m; sourceTree = "<group>"; };
+		6125460F0D1CA71C006420F9 /* ATMessageOutlinePane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATMessageOutlinePane.nib; sourceTree = "<group>"; };
+		612546250D1CA764006420F9 /* ATMessageOutlinePane.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMessageOutlinePane.h; sourceTree = "<group>"; };
+		612546260D1CA764006420F9 /* ATMessageOutlinePane.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMessageOutlinePane.m; sourceTree = "<group>"; };
+		6125475A0D1CD4DC006420F9 /* ATMessageTextPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATMessageTextPane.nib; sourceTree = "<group>"; };
+		6125475C0D1CD4E6006420F9 /* ATMessageTextPane.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMessageTextPane.h; sourceTree = "<group>"; };
+		6125475D0D1CD4E6006420F9 /* ATMessageTextPane.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMessageTextPane.m; sourceTree = "<group>"; };
+		6125475F0D1CD57C006420F9 /* ATMessageImagePane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATMessageImagePane.nib; sourceTree = "<group>"; };
+		612547610D1CD585006420F9 /* ATMessageImagePane.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMessageImagePane.m; sourceTree = "<group>"; };
+		612547620D1CD585006420F9 /* ATMessageImagePane.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMessageImagePane.h; sourceTree = "<group>"; };
+		612B585709AC9197000FA902 /* ATInternetMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATInternetMessage.h; sourceTree = "<group>"; };
+		612B585809AC9197000FA902 /* ATInternetMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATInternetMessage.m; sourceTree = "<group>"; };
+		612B587909AC951C000FA902 /* ATHeaderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHeaderField.h; sourceTree = "<group>"; };
+		612B587A09AC951C000FA902 /* ATHeaderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHeaderField.m; sourceTree = "<group>"; };
+		612FD7F40D1A9EC900D1B126 /* ATMessageTablePane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATMessageTablePane.nib; sourceTree = "<group>"; };
+		612FD7F60D1A9EE400D1B126 /* ATMessageTablePane.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMessageTablePane.h; sourceTree = "<group>"; };
+		612FD7F70D1A9EE400D1B126 /* ATMessageTablePane.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMessageTablePane.m; sourceTree = "<group>"; };
+		61315CB40AC2BE4B00A67790 /* ATMIMETokenScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMIMETokenScanner.h; sourceTree = "<group>"; };
+		61315CB50AC2BE4B00A67790 /* ATMIMETokenScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMIMETokenScanner.m; sourceTree = "<group>"; };
+		6133577D0AB6F7A700799123 /* ATPop3MessageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATPop3MessageDownloader.h; sourceTree = "<group>"; };
+		6133577E0AB6F7A700799123 /* ATPop3MessageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATPop3MessageDownloader.m; sourceTree = "<group>"; };
+		6136EBEB0B1071AD0016A88D /* ATMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMessageModel.h; sourceTree = "<group>"; };
+		6136EBEC0B1071AD0016A88D /* ATMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMessageModel.m; sourceTree = "<group>"; };
+		6160FC870C958F9D00618112 /* ATMailSpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailSpool.h; sourceTree = "<group>"; };
+		6160FC880C958F9D00618112 /* ATMailSpool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailSpool.m; sourceTree = "<group>"; };
+		617E19630D4F2E120085FFB2 /* ATMailDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMailDocumentController.h; sourceTree = "<group>"; };
+		617E19640D4F2E120085FFB2 /* ATMailDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMailDocumentController.m; sourceTree = "<group>"; };
+		61A63E9D0CC0F20D00566DD6 /* ATMailSpoolModel.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMailSpoolModel.h; sourceTree = "<group>"; };
+		61A63E9E0CC0F20D00566DD6 /* ATMailSpoolModel.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMailSpoolModel.m; sourceTree = "<group>"; };
+		61B650D509E9D7BF00D456E4 /* ATCFWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCFWS.h; sourceTree = "<group>"; };
+		61B650D609E9D7BF00D456E4 /* ATCFWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCFWS.m; sourceTree = "<group>"; };
+		61B650E009E9D88200D456E4 /* ATFWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFWS.h; sourceTree = "<group>"; };
+		61B650E109E9D88200D456E4 /* ATFWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFWS.m; sourceTree = "<group>"; };
+		61B650FF09EA76D400D456E4 /* ATCtext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCtext.h; sourceTree = "<group>"; };
+		61B6510009EA76D400D456E4 /* ATCtext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCtext.m; sourceTree = "<group>"; };
+		61B6510809EA77BD00D456E4 /* ATQuotedPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATQuotedPair.h; sourceTree = "<group>"; };
+		61B6510909EA77BD00D456E4 /* ATQuotedPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATQuotedPair.m; sourceTree = "<group>"; };
+		61B6B98509CC2107005BDFE6 /* ATTokenScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTokenScanner.h; sourceTree = "<group>"; };
+		61B6B98609CC2107005BDFE6 /* ATTokenScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTokenScanner.m; sourceTree = "<group>"; };
+		61B6C0E909E89798008D9F0C /* ATAddrSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAddrSpec.h; sourceTree = "<group>"; };
+		61B6C0EA09E89798008D9F0C /* ATAddrSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAddrSpec.m; sourceTree = "<group>"; };
+		61B6C0F509E8A45A008D9F0C /* ATNameAddr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNameAddr.h; sourceTree = "<group>"; };
+		61B6C0F609E8A45A008D9F0C /* ATNameAddr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNameAddr.m; sourceTree = "<group>"; };
+		61B6C11609E8A6D8008D9F0C /* ATAngleAddr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAngleAddr.h; sourceTree = "<group>"; };
+		61B6C11709E8A6D8008D9F0C /* ATAngleAddr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAngleAddr.m; sourceTree = "<group>"; };
+		61B6C1E109E8BDE5008D9F0C /* ATGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATGroup.h; sourceTree = "<group>"; };
+		61B6C1E209E8BDE6008D9F0C /* ATGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATGroup.m; sourceTree = "<group>"; };
+		61B6C22C09E8CC33008D9F0C /* ATAddressListFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAddressListFieldBody.h; sourceTree = "<group>"; };
+		61B6C22D09E8CC33008D9F0C /* ATAddressListFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAddressListFieldBody.m; sourceTree = "<group>"; };
+		61B726A409EBBA550068C79E /* ATTimeOfDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTimeOfDay.h; sourceTree = "<group>"; };
+		61B726A509EBBA550068C79E /* ATTimeOfDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTimeOfDay.m; sourceTree = "<group>"; };
+		61B73B470A9DAD07006D1C0D /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		61B73B4A0A9DAD1A006D1C0D /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/ATMailDocumentWindow.nib; sourceTree = "<group>"; };
+		61B73B650A9DADAE006D1C0D /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/ATMailAccountWindow.nib; sourceTree = "<group>"; };
+		61B826F20BC90C9F004D8F19 /* ATMessageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMessageEntity.h; sourceTree = "<group>"; };
+		61B826F30BC90C9F004D8F19 /* ATMessageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMessageEntity.m; sourceTree = "<group>"; };
+		61B8CF5A09F4BDBF0028DD47 /* ATPathFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATPathFieldBody.h; sourceTree = "<group>"; };
+		61B8CF5B09F4BDBF0028DD47 /* ATPathFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATPathFieldBody.m; sourceTree = "<group>"; };
+		61B8CFA309F4C2010028DD47 /* ATReceivedFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATReceivedFieldBody.h; sourceTree = "<group>"; };
+		61B8CFA409F4C2010028DD47 /* ATReceivedFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATReceivedFieldBody.m; sourceTree = "<group>"; };
+		61B8CFED09F4CD9D0028DD47 /* ATMsgID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsgID.h; sourceTree = "<group>"; };
+		61B8CFEE09F4CD9D0028DD47 /* ATMsgID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsgID.m; sourceTree = "<group>"; };
+		61B8F1AD09CD834400A392C9 /* ATComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATComment.h; sourceTree = "<group>"; };
+		61B8F1AE09CD834400A392C9 /* ATComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATComment.m; sourceTree = "<group>"; };
+		61B9AE5909E7934F00C8908B /* ATDateTimeFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDateTimeFieldBody.h; sourceTree = "<group>"; };
+		61B9AE5A09E7934F00C8908B /* ATDateTimeFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDateTimeFieldBody.m; sourceTree = "<group>"; };
+		61B9AEFB09E7BDA700C8908B /* ATUnstructuredFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATUnstructuredFieldBody.h; sourceTree = "<group>"; };
+		61B9AEFC09E7BDA700C8908B /* ATUnstructuredFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATUnstructuredFieldBody.m; sourceTree = "<group>"; };
+		61B9AFD409E7F00A00C8908B /* ATMailboxListFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailboxListFieldBody.h; sourceTree = "<group>"; };
+		61B9AFD509E7F00A00C8908B /* ATMailboxListFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailboxListFieldBody.m; sourceTree = "<group>"; };
+		61BD11B30C8C24C600A8A74A /* ATInternetMessageLineScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATInternetMessageLineScanner.h; sourceTree = "<group>"; };
+		61BD11B40C8C24C600A8A74A /* ATInternetMessageLineScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATInternetMessageLineScanner.m; sourceTree = "<group>"; };
+		61BD9F580AB41E0800474DD7 /* ATPop3Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATPop3Core.h; sourceTree = "<group>"; };
+		61BD9F590AB41E0800474DD7 /* ATPop3Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATPop3Core.m; sourceTree = "<group>"; };
+		61C02D610AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContentTransferEncodingFieldBody.h; sourceTree = "<group>"; };
+		61C02D620AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContentTransferEncodingFieldBody.m; sourceTree = "<group>"; };
+		61C02D7B0AC6B82800D98EB8 /* ATContentIDFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContentIDFieldBody.h; sourceTree = "<group>"; };
+		61C02D7C0AC6B82800D98EB8 /* ATContentIDFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContentIDFieldBody.m; sourceTree = "<group>"; };
+		61C02DB90AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContentDescriptionFieldBody.h; sourceTree = "<group>"; };
+		61C02DBA0AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContentDescriptionFieldBody.m; sourceTree = "<group>"; };
+		61C0A20509C2BFAB00FB01CD /* ATFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFieldBody.h; sourceTree = "<group>"; };
+		61C0A20609C2BFAB00FB01CD /* ATFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFieldBody.m; sourceTree = "<group>"; };
+		61C41DA90AF454DE003E8038 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/ATMessageDownloaderWindow.nib; sourceTree = "<group>"; };
+		61C41DAB0AF45614003E8038 /* ATMessageDownloaderWindowController.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMessageDownloaderWindowController.h; sourceTree = "<group>"; };
+		61C41DAC0AF45614003E8038 /* ATMessageDownloaderWindowController.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMessageDownloaderWindowController.m; sourceTree = "<group>"; };
+		61C5CBC60AC408B800584BE4 /* ATMIMEVersionFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMIMEVersionFieldBody.h; sourceTree = "<group>"; };
+		61C5CBC70AC408B800584BE4 /* ATMIMEVersionFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMIMEVersionFieldBody.m; sourceTree = "<group>"; };
+		61C9FE990C4A643600B2003F /* ATBodyTextRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBodyTextRepresentation.h; sourceTree = "<group>"; };
+		61C9FE9A0C4A643600B2003F /* ATBodyTextRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBodyTextRepresentation.m; sourceTree = "<group>"; };
+		61CACA6A09AFF99300A2DBDA /* ATAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATAppDelegate.h; sourceTree = "<group>"; };
+		61CACA6B09AFF99300A2DBDA /* ATAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATAppDelegate.m; sourceTree = "<group>"; };
+		61CB15E70D1F8B85001E64F7 /* ATEntityHeaderPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATEntityHeaderPane.nib; sourceTree = "<group>"; };
+		61CB15E90D1F8BDA001E64F7 /* ATEntityHeaderPane.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATEntityHeaderPane.h; sourceTree = "<group>"; };
+		61CB15EA0D1F8BDA001E64F7 /* ATEntityHeaderPane.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATEntityHeaderPane.m; sourceTree = "<group>"; };
+		61CB15F70D1F8F0D001E64F7 /* ATEntityOutlinePane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATEntityOutlinePane.nib; sourceTree = "<group>"; };
+		61CB17470D1F90AB001E64F7 /* ATEntityOutlinePane.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATEntityOutlinePane.h; sourceTree = "<group>"; };
+		61CB17480D1F90AB001E64F7 /* ATEntityOutlinePane.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATEntityOutlinePane.m; sourceTree = "<group>"; };
+		61CCE8620D1E6D76005381FE /* ATMessagesPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMessagesPane.h; sourceTree = "<group>"; };
+		61CCE8630D1E6D76005381FE /* ATMessagesPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMessagesPane.m; sourceTree = "<group>"; };
+		61CCE9EA0D1E734D005381FE /* ATMailPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailPane.h; sourceTree = "<group>"; };
+		61CCE9EB0D1E734D005381FE /* ATMailPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailPane.m; sourceTree = "<group>"; };
+		61CCE9F90D1E7550005381FE /* ATMessagePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMessagePane.h; sourceTree = "<group>"; };
+		61CCE9FA0D1E7550005381FE /* ATMessagePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMessagePane.m; sourceTree = "<group>"; };
+		61DB4C280D52D86F009B9E7C /* ATMailboxesOutlineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailboxesOutlineDataSource.h; sourceTree = "<group>"; };
+		61DB4C290D52D86F009B9E7C /* ATMailboxesOutlineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailboxesOutlineDataSource.m; sourceTree = "<group>"; };
+		61DB4EE20D5337E0009B9E7C /* ATMailboxesOutlinePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailboxesOutlinePane.h; sourceTree = "<group>"; };
+		61DB4EE30D5337E0009B9E7C /* ATMailboxesOutlinePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailboxesOutlinePane.m; sourceTree = "<group>"; };
+		61DB4F230D533BA9009B9E7C /* ATMailboxesOutlinePane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATMailboxesOutlinePane.nib; sourceTree = "<group>"; };
+		61DC71390E1722AD008A2D85 /* ATMessageOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMessageOutlineView.m; sourceTree = "<group>"; };
+		61DC713A0E1722AD008A2D85 /* ATMessageOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMessageOutlineView.h; sourceTree = "<group>"; };
+		61E08A800D51E80800677766 /* ATMailbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailbox.h; sourceTree = "<group>"; };
+		61E08A810D51E80800677766 /* ATMailbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailbox.m; sourceTree = "<group>"; };
+		61E58CF40F0C54160060BFA3 /* ATThreadsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATThreadsModel.h; sourceTree = "<group>"; };
+		61E58CF50F0C54160060BFA3 /* ATThreadsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATThreadsModel.m; sourceTree = "<group>"; };
+		61E9F3710C90FEC700F7F6CB /* ATMultipartTokenScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMultipartTokenScanner.h; sourceTree = "<group>"; };
+		61E9F3720C90FEC700F7F6CB /* ATMultipartTokenScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMultipartTokenScanner.m; sourceTree = "<group>"; };
+		61EB24F60A95CF7300683DEA /* ATMailAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailAccount.h; sourceTree = "<group>"; };
+		61EB24F70A95CF7300683DEA /* ATMailAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailAccount.m; sourceTree = "<group>"; };
+		61EB253B0A95D65100683DEA /* ATMailAccountWindowController.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMailAccountWindowController.m; sourceTree = "<group>"; };
+		61EB253C0A95D65100683DEA /* ATMailAccountWindowController.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMailAccountWindowController.h; sourceTree = "<group>"; };
+		61ECC71209F3B01A0006E6C3 /* ATKeywordsFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATKeywordsFieldBody.h; sourceTree = "<group>"; };
+		61ECC71309F3B01A0006E6C3 /* ATKeywordsFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATKeywordsFieldBody.m; sourceTree = "<group>"; };
+		61ECC73609F3B8520006E6C3 /* ATMailboxFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMailboxFieldBody.h; sourceTree = "<group>"; };
+		61ECC73709F3B8520006E6C3 /* ATMailboxFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMailboxFieldBody.m; sourceTree = "<group>"; };
+		61ECC7B309F3CE950006E6C3 /* ATBccFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBccFieldBody.h; sourceTree = "<group>"; };
+		61ECC7B409F3CE950006E6C3 /* ATBccFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBccFieldBody.m; sourceTree = "<group>"; };
+		61ECC7EC09F3D2A60006E6C3 /* ATMsgIDFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMsgIDFieldBody.h; sourceTree = "<group>"; };
+		61ECC7ED09F3D2A60006E6C3 /* ATMsgIDFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMsgIDFieldBody.m; sourceTree = "<group>"; };
+		61F15B370EE175D200D4875D /* ATMessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMessagesModel.h; sourceTree = "<group>"; };
+		61F15B380EE175D200D4875D /* ATMessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMessagesModel.m; sourceTree = "<group>"; };
+		61F487040D1FDEC50054DD69 /* ATHTMLPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHTMLPane.h; sourceTree = "<group>"; };
+		61F487050D1FDEC50054DD69 /* ATHTMLPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHTMLPane.m; sourceTree = "<group>"; };
+		61F487090D1FDF550054DD69 /* ATHTMLPane.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ATHTMLPane.nib; sourceTree = "<group>"; };
+		61F487220D1FE1C80054DD69 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		61F4C29E0CD7092E001AC8E7 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		61F4C29F0CD7092E001AC8E7 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		61F838740AEE45B300820D75 /* ATEncodedWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEncodedWord.h; sourceTree = "<group>"; };
+		61F838750AEE45B300820D75 /* ATEncodedWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATEncodedWord.m; sourceTree = "<group>"; };
+		61F846950CDDE7EF00C4F50A /* ATOctetStreamRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATOctetStreamRepresentation.h; sourceTree = "<group>"; };
+		61F846960CDDE7EF00C4F50A /* ATOctetStreamRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATOctetStreamRepresentation.m; sourceTree = "<group>"; };
+		61F8EAA60CBFA33700A7DB3F /* ATMailDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.h; path = ATMailDocumentWindowController.h; sourceTree = "<group>"; };
+		61F8EAA70CBFA33700A7DB3F /* ATMailDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 18446744071562067969; lastKnownFileType = sourcecode.c.objc; path = ATMailDocumentWindowController.m; sourceTree = "<group>"; };
+		61FBB2BF0CE52C2F00C89506 /* ATContentDispositionFieldBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContentDispositionFieldBody.h; sourceTree = "<group>"; };
+		61FBB2C00CE52C2F00C89506 /* ATContentDispositionFieldBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContentDispositionFieldBody.m; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* ATMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C943B721D5097F00D5F2BF /* ATBase64Processor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATBase64Processor.m; path = ATFoundation/ATBase64Processor.m; sourceTree = "<group>"; };
+		B8C943B821D5097F00D5F2BF /* ATIDPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATIDPool.h; path = ATFoundation/ATIDPool.h; sourceTree = "<group>"; };
+		B8C943B921D5097F00D5F2BF /* ATQuotedPrintableDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATQuotedPrintableDecoder.h; path = ATFoundation/ATQuotedPrintableDecoder.h; sourceTree = "<group>"; };
+		B8C943BA21D5097F00D5F2BF /* ATQuotedPrintableDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATQuotedPrintableDecoder.m; path = ATFoundation/ATQuotedPrintableDecoder.m; sourceTree = "<group>"; };
+		B8C943BB21D5097F00D5F2BF /* ATBase64Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATBase64Processor.h; path = ATFoundation/ATBase64Processor.h; sourceTree = "<group>"; };
+		B8C943BC21D5097F00D5F2BF /* ATIDPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATIDPool.m; path = ATFoundation/ATIDPool.m; sourceTree = "<group>"; };
+		B8C943BD21D5097F00D5F2BF /* ATBase64Decoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATBase64Decoder.m; path = ATFoundation/ATBase64Decoder.m; sourceTree = "<group>"; };
+		B8C943BE21D5097F00D5F2BF /* ATBase64Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATBase64Decoder.h; path = ATFoundation/ATBase64Decoder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				61F487230D1FE1C80054DD69 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F487220D1FE1C80054DD69 /* WebKit.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* ATMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* ATMail */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = ATMail;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				613EE13D0F0BB5AE0018CCE0 /* ドメインモデル */,
+				613EE13C0F0BB5800018CCE0 /* プレゼンテーションモデル */,
+				613EE13E0F0BB5D50018CCE0 /* ドキュメント */,
+				61CACA6A09AFF99300A2DBDA /* ATAppDelegate.h */,
+				61CACA6B09AFF99300A2DBDA /* ATAppDelegate.m */,
+				61E7E60A0D7BC8D500F5503E /* ペイン */,
+				611C48630D923CA700C42357 /* ATFilterEditor.h */,
+				611C48640D923CA700C42357 /* ATFilterEditor.m */,
+				611C486B0D923CCE00C42357 /* ATFilter.h */,
+				611C486C0D923CCE00C42357 /* ATFilter.m */,
+				611C49BE0D92938700C42357 /* ATFilterEditorWindowController.h */,
+				611C49BD0D92938700C42357 /* ATFilterEditorWindowController.m */,
+				61EB24F60A95CF7300683DEA /* ATMailAccount.h */,
+				61EB24F70A95CF7300683DEA /* ATMailAccount.m */,
+				61EB253C0A95D65100683DEA /* ATMailAccountWindowController.h */,
+				61EB253B0A95D65100683DEA /* ATMailAccountWindowController.m */,
+				61F4C29E0CD7092E001AC8E7 /* MyTextView.h */,
+				61F4C29F0CD7092E001AC8E7 /* MyTextView.m */,
+				6145D8F90ABAE31D00E3E105 /* ダウンローダー */,
+				6145D8F70ABAE2D300E3E105 /* スキャナー */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* ATMail_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				B8C943C321D5099400D5F2BF /* ATFoundation */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6113910A0CD7771000699353 /* iana-token.plist */,
+				6103DD2A0EFFDE9F00E739A7 /* DefaultMessagesColumns.plist */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* ATMailDocumentWindow.nib */,
+				612FD7F40D1A9EC900D1B126 /* ATMessageTablePane.nib */,
+				6125460F0D1CA71C006420F9 /* ATMessageOutlinePane.nib */,
+				61DB4F230D533BA9009B9E7C /* ATMailboxesOutlinePane.nib */,
+				6125475A0D1CD4DC006420F9 /* ATMessageTextPane.nib */,
+				6125475F0D1CD57C006420F9 /* ATMessageImagePane.nib */,
+				61F487090D1FDF550054DD69 /* ATHTMLPane.nib */,
+				61CB15E70D1F8B85001E64F7 /* ATEntityHeaderPane.nib */,
+				61CB15F70D1F8F0D001E64F7 /* ATEntityOutlinePane.nib */,
+				61B73B630A9DADA5006D1C0D /* ATMailAccountWindow.nib */,
+				61C41DA80AF454DE003E8038 /* ATMessageDownloaderWindow.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				611C48710D923EC600C42357 /* ATFilterEditorWindow.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61253FE40AC5396500A9C35D /* MIMEフィールド */ = {
+			isa = PBXGroup;
+			children = (
+				61C5CBC60AC408B800584BE4 /* ATMIMEVersionFieldBody.h */,
+				61C5CBC70AC408B800584BE4 /* ATMIMEVersionFieldBody.m */,
+				61253FDC0AC5385A00A9C35D /* ATContentTypeFieldBody.h */,
+				61253FDD0AC5385A00A9C35D /* ATContentTypeFieldBody.m */,
+				61C02D610AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.h */,
+				61C02D620AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.m */,
+				61C02D7B0AC6B82800D98EB8 /* ATContentIDFieldBody.h */,
+				61C02D7C0AC6B82800D98EB8 /* ATContentIDFieldBody.m */,
+				61C02DB90AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.h */,
+				61C02DBA0AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.m */,
+			);
+			name = "MIMEフィールド";
+			sourceTree = "<group>";
+		};
+		6136EBDB0B105E2B0016A88D /* ヘッダ */ = {
+			isa = PBXGroup;
+			children = (
+				612B587909AC951C000FA902 /* ATHeaderField.h */,
+				612B587A09AC951C000FA902 /* ATHeaderField.m */,
+				61C0A20509C2BFAB00FB01CD /* ATFieldBody.h */,
+				61C0A20609C2BFAB00FB01CD /* ATFieldBody.m */,
+				61ECC70E09F3AF3F0006E6C3 /* RFC2822フィールド */,
+				61253FE40AC5396500A9C35D /* MIMEフィールド */,
+				61FBB2BF0CE52C2F00C89506 /* ATContentDispositionFieldBody.h */,
+				61FBB2C00CE52C2F00C89506 /* ATContentDispositionFieldBody.m */,
+			);
+			name = "ヘッダ";
+			sourceTree = "<group>";
+		};
+		6136EBDC0B105E350016A88D /* ボディ */ = {
+			isa = PBXGroup;
+			children = (
+				610089C10AD27522001B15CA /* ATMultipartBody.h */,
+				610089C20AD27522001B15CA /* ATMultipartBody.m */,
+				61C9FE990C4A643600B2003F /* ATBodyTextRepresentation.h */,
+				61C9FE9A0C4A643600B2003F /* ATBodyTextRepresentation.m */,
+				61F846950CDDE7EF00C4F50A /* ATOctetStreamRepresentation.h */,
+				61F846960CDDE7EF00C4F50A /* ATOctetStreamRepresentation.m */,
+			);
+			name = "ボディ";
+			sourceTree = "<group>";
+		};
+		613EE13C0F0BB5800018CCE0 /* プレゼンテーションモデル */ = {
+			isa = PBXGroup;
+			children = (
+				61A63E9D0CC0F20D00566DD6 /* ATMailSpoolModel.h */,
+				61A63E9E0CC0F20D00566DD6 /* ATMailSpoolModel.m */,
+				61F15B370EE175D200D4875D /* ATMessagesModel.h */,
+				61F15B380EE175D200D4875D /* ATMessagesModel.m */,
+				61E58CF40F0C54160060BFA3 /* ATThreadsModel.h */,
+				61E58CF50F0C54160060BFA3 /* ATThreadsModel.m */,
+				6136EBEB0B1071AD0016A88D /* ATMessageModel.h */,
+				6136EBEC0B1071AD0016A88D /* ATMessageModel.m */,
+				61DB4C280D52D86F009B9E7C /* ATMailboxesOutlineDataSource.h */,
+				61DB4C290D52D86F009B9E7C /* ATMailboxesOutlineDataSource.m */,
+			);
+			name = "プレゼンテーションモデル";
+			sourceTree = "<group>";
+		};
+		613EE13D0F0BB5AE0018CCE0 /* ドメインモデル */ = {
+			isa = PBXGroup;
+			children = (
+				6160FC870C958F9D00618112 /* ATMailSpool.h */,
+				6160FC880C958F9D00618112 /* ATMailSpool.m */,
+				61E08A800D51E80800677766 /* ATMailbox.h */,
+				61E08A810D51E80800677766 /* ATMailbox.m */,
+				61BAA6DB09F23D0B0001CE52 /* メッセージ */,
+			);
+			name = "ドメインモデル";
+			sourceTree = "<group>";
+		};
+		613EE13E0F0BB5D50018CCE0 /* ドキュメント */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* ATMailDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* ATMailDocument.m */,
+				61F8EAA60CBFA33700A7DB3F /* ATMailDocumentWindowController.h */,
+				61F8EAA70CBFA33700A7DB3F /* ATMailDocumentWindowController.m */,
+				617E19630D4F2E120085FFB2 /* ATMailDocumentController.h */,
+				617E19640D4F2E120085FFB2 /* ATMailDocumentController.m */,
+			);
+			name = "ドキュメント";
+			sourceTree = "<group>";
+		};
+		613EE13F0F0BB6110018CCE0 /* messages */ = {
+			isa = PBXGroup;
+			children = (
+				61CCE8620D1E6D76005381FE /* ATMessagesPane.h */,
+				61CCE8630D1E6D76005381FE /* ATMessagesPane.m */,
+				612FD7F60D1A9EE400D1B126 /* ATMessageTablePane.h */,
+				612FD7F70D1A9EE400D1B126 /* ATMessageTablePane.m */,
+				612546250D1CA764006420F9 /* ATMessageOutlinePane.h */,
+				612546260D1CA764006420F9 /* ATMessageOutlinePane.m */,
+				61DC713A0E1722AD008A2D85 /* ATMessageOutlineView.h */,
+				61DC71390E1722AD008A2D85 /* ATMessageOutlineView.m */,
+			);
+			name = messages;
+			sourceTree = "<group>";
+		};
+		613EE1400F0BB63A0018CCE0 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				61CCE9F90D1E7550005381FE /* ATMessagePane.h */,
+				61CCE9FA0D1E7550005381FE /* ATMessagePane.m */,
+				6125475C0D1CD4E6006420F9 /* ATMessageTextPane.h */,
+				6125475D0D1CD4E6006420F9 /* ATMessageTextPane.m */,
+				612547620D1CD585006420F9 /* ATMessageImagePane.h */,
+				612547610D1CD585006420F9 /* ATMessageImagePane.m */,
+				61F487040D1FDEC50054DD69 /* ATHTMLPane.h */,
+				61F487050D1FDEC50054DD69 /* ATHTMLPane.m */,
+			);
+			name = message;
+			sourceTree = "<group>";
+		};
+		613EE1410F0BB65A0018CCE0 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				61CB15E90D1F8BDA001E64F7 /* ATEntityHeaderPane.h */,
+				61CB15EA0D1F8BDA001E64F7 /* ATEntityHeaderPane.m */,
+				61CB17470D1F90AB001E64F7 /* ATEntityOutlinePane.h */,
+				61CB17480D1F90AB001E64F7 /* ATEntityOutlinePane.m */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
+		6145D8F70ABAE2D300E3E105 /* スキャナー */ = {
+			isa = PBXGroup;
+			children = (
+				61BD11B30C8C24C600A8A74A /* ATInternetMessageLineScanner.h */,
+				61BD11B40C8C24C600A8A74A /* ATInternetMessageLineScanner.m */,
+				61B6B98509CC2107005BDFE6 /* ATTokenScanner.h */,
+				61B6B98609CC2107005BDFE6 /* ATTokenScanner.m */,
+				61315CB40AC2BE4B00A67790 /* ATMIMETokenScanner.h */,
+				61315CB50AC2BE4B00A67790 /* ATMIMETokenScanner.m */,
+				61E9F3710C90FEC700F7F6CB /* ATMultipartTokenScanner.h */,
+				61E9F3720C90FEC700F7F6CB /* ATMultipartTokenScanner.m */,
+			);
+			name = "スキャナー";
+			sourceTree = "<group>";
+		};
+		6145D8F90ABAE31D00E3E105 /* ダウンローダー */ = {
+			isa = PBXGroup;
+			children = (
+				6133577D0AB6F7A700799123 /* ATPop3MessageDownloader.h */,
+				6133577E0AB6F7A700799123 /* ATPop3MessageDownloader.m */,
+				61BD9F580AB41E0800474DD7 /* ATPop3Core.h */,
+				61BD9F590AB41E0800474DD7 /* ATPop3Core.m */,
+				61C41DAB0AF45614003E8038 /* ATMessageDownloaderWindowController.h */,
+				61C41DAC0AF45614003E8038 /* ATMessageDownloaderWindowController.m */,
+			);
+			name = "ダウンローダー";
+			sourceTree = "<group>";
+		};
+		61BAA6DB09F23D0B0001CE52 /* メッセージ */ = {
+			isa = PBXGroup;
+			children = (
+				61B826F20BC90C9F004D8F19 /* ATMessageEntity.h */,
+				61B826F30BC90C9F004D8F19 /* ATMessageEntity.m */,
+				612B585709AC9197000FA902 /* ATInternetMessage.h */,
+				612B585809AC9197000FA902 /* ATInternetMessage.m */,
+				6136EBDB0B105E2B0016A88D /* ヘッダ */,
+				6136EBDC0B105E350016A88D /* ボディ */,
+			);
+			name = "メッセージ";
+			sourceTree = "<group>";
+		};
+		61E7E60A0D7BC8D500F5503E /* ペイン */ = {
+			isa = PBXGroup;
+			children = (
+				61CCE9EA0D1E734D005381FE /* ATMailPane.h */,
+				61CCE9EB0D1E734D005381FE /* ATMailPane.m */,
+				610E30190F0B88CB0056E834 /* ATItemsPane.h */,
+				610E301A0F0B88CB0056E834 /* ATItemsPane.m */,
+				61DB4EE20D5337E0009B9E7C /* ATMailboxesOutlinePane.h */,
+				61DB4EE30D5337E0009B9E7C /* ATMailboxesOutlinePane.m */,
+				613EE13F0F0BB6110018CCE0 /* messages */,
+				613EE1400F0BB63A0018CCE0 /* message */,
+				613EE1410F0BB65A0018CCE0 /* entity */,
+			);
+			name = "ペイン";
+			sourceTree = "<group>";
+		};
+		61ECC70E09F3AF3F0006E6C3 /* RFC2822フィールド */ = {
+			isa = PBXGroup;
+			children = (
+				61B9AEFB09E7BDA700C8908B /* ATUnstructuredFieldBody.h */,
+				61B9AEFC09E7BDA700C8908B /* ATUnstructuredFieldBody.m */,
+				61B8CF5A09F4BDBF0028DD47 /* ATPathFieldBody.h */,
+				61B8CF5B09F4BDBF0028DD47 /* ATPathFieldBody.m */,
+				61B9AE5909E7934F00C8908B /* ATDateTimeFieldBody.h */,
+				61B9AE5A09E7934F00C8908B /* ATDateTimeFieldBody.m */,
+				61B9AFD409E7F00A00C8908B /* ATMailboxListFieldBody.h */,
+				61B9AFD509E7F00A00C8908B /* ATMailboxListFieldBody.m */,
+				61B6C22C09E8CC33008D9F0C /* ATAddressListFieldBody.h */,
+				61B6C22D09E8CC33008D9F0C /* ATAddressListFieldBody.m */,
+				61ECC71209F3B01A0006E6C3 /* ATKeywordsFieldBody.h */,
+				61ECC71309F3B01A0006E6C3 /* ATKeywordsFieldBody.m */,
+				61ECC73609F3B8520006E6C3 /* ATMailboxFieldBody.h */,
+				61ECC73709F3B8520006E6C3 /* ATMailboxFieldBody.m */,
+				61ECC7B309F3CE950006E6C3 /* ATBccFieldBody.h */,
+				61ECC7B409F3CE950006E6C3 /* ATBccFieldBody.m */,
+				61ECC7EC09F3D2A60006E6C3 /* ATMsgIDFieldBody.h */,
+				61ECC7ED09F3D2A60006E6C3 /* ATMsgIDFieldBody.m */,
+				61B8CFA309F4C2010028DD47 /* ATReceivedFieldBody.h */,
+				61B8CFA409F4C2010028DD47 /* ATReceivedFieldBody.m */,
+				61ECC70F09F3AF980006E6C3 /* トークン */,
+			);
+			name = "RFC2822フィールド";
+			sourceTree = "<group>";
+		};
+		61ECC70F09F3AF980006E6C3 /* トークン */ = {
+			isa = PBXGroup;
+			children = (
+				61B8CFED09F4CD9D0028DD47 /* ATMsgID.h */,
+				61B8CFEE09F4CD9D0028DD47 /* ATMsgID.m */,
+				61B6C0E909E89798008D9F0C /* ATAddrSpec.h */,
+				61B6C0EA09E89798008D9F0C /* ATAddrSpec.m */,
+				61B6C11609E8A6D8008D9F0C /* ATAngleAddr.h */,
+				61B6C11709E8A6D8008D9F0C /* ATAngleAddr.m */,
+				61B6C0F509E8A45A008D9F0C /* ATNameAddr.h */,
+				61B6C0F609E8A45A008D9F0C /* ATNameAddr.m */,
+				61B6C1E109E8BDE5008D9F0C /* ATGroup.h */,
+				61B6C1E209E8BDE6008D9F0C /* ATGroup.m */,
+				61B726A409EBBA550068C79E /* ATTimeOfDay.h */,
+				61B726A509EBBA550068C79E /* ATTimeOfDay.m */,
+				61B650D509E9D7BF00D456E4 /* ATCFWS.h */,
+				61B650D609E9D7BF00D456E4 /* ATCFWS.m */,
+				61B650E009E9D88200D456E4 /* ATFWS.h */,
+				61B650E109E9D88200D456E4 /* ATFWS.m */,
+				61B8F1AD09CD834400A392C9 /* ATComment.h */,
+				61B8F1AE09CD834400A392C9 /* ATComment.m */,
+				61B650FF09EA76D400D456E4 /* ATCtext.h */,
+				61B6510009EA76D400D456E4 /* ATCtext.m */,
+				61B6510809EA77BD00D456E4 /* ATQuotedPair.h */,
+				61B6510909EA77BD00D456E4 /* ATQuotedPair.m */,
+				61F838740AEE45B300820D75 /* ATEncodedWord.h */,
+				61F838750AEE45B300820D75 /* ATEncodedWord.m */,
+			);
+			name = "トークン";
+			sourceTree = "<group>";
+		};
+		B8C943C321D5099400D5F2BF /* ATFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				B8C943BE21D5097F00D5F2BF /* ATBase64Decoder.h */,
+				B8C943BD21D5097F00D5F2BF /* ATBase64Decoder.m */,
+				B8C943BB21D5097F00D5F2BF /* ATBase64Processor.h */,
+				B8C943B721D5097F00D5F2BF /* ATBase64Processor.m */,
+				B8C943B821D5097F00D5F2BF /* ATIDPool.h */,
+				B8C943BC21D5097F00D5F2BF /* ATIDPool.m */,
+				B8C943B921D5097F00D5F2BF /* ATQuotedPrintableDecoder.h */,
+				B8C943BA21D5097F00D5F2BF /* ATQuotedPrintableDecoder.m */,
+			);
+			name = ATFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* ATMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CA3FED0CD0A5F800F6ADF9 /* Build configuration list for PBXNativeTarget "ATMail" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				618EA25F0D3B86440045791B /* CopyFiles */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATMail;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ATMail;
+			productReference = 8D15AC370486D014006FF6A4 /* ATMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 61CA3FF10CD0A5F800F6ADF9 /* Build configuration list for PBXProject "ATMail" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* ATMail */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* ATMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* ATMailDocumentWindow.nib in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				61B73B640A9DADA5006D1C0D /* ATMailAccountWindow.nib in Resources */,
+				61C41DAA0AF454DE003E8038 /* ATMessageDownloaderWindow.nib in Resources */,
+				6113910B0CD7771000699353 /* iana-token.plist in Resources */,
+				612FD7F50D1A9EC900D1B126 /* ATMessageTablePane.nib in Resources */,
+				612546100D1CA71C006420F9 /* ATMessageOutlinePane.nib in Resources */,
+				6125475B0D1CD4DC006420F9 /* ATMessageTextPane.nib in Resources */,
+				612547600D1CD57C006420F9 /* ATMessageImagePane.nib in Resources */,
+				61CB15E80D1F8B85001E64F7 /* ATEntityHeaderPane.nib in Resources */,
+				61CB15F80D1F8F0D001E64F7 /* ATEntityOutlinePane.nib in Resources */,
+				61F4870A0D1FDF550054DD69 /* ATHTMLPane.nib in Resources */,
+				61DB4F240D533BA9009B9E7C /* ATMailboxesOutlinePane.nib in Resources */,
+				611C48720D923EC600C42357 /* ATFilterEditorWindow.nib in Resources */,
+				6103DD2B0EFFDEA000E739A7 /* DefaultMessagesColumns.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* ATMailDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				612B585909AC9197000FA902 /* ATInternetMessage.m in Sources */,
+				612B587B09AC951C000FA902 /* ATHeaderField.m in Sources */,
+				61CACA6C09AFF99300A2DBDA /* ATAppDelegate.m in Sources */,
+				61C0A20709C2BFAB00FB01CD /* ATFieldBody.m in Sources */,
+				61B6B98709CC2107005BDFE6 /* ATTokenScanner.m in Sources */,
+				61B8F1AF09CD834400A392C9 /* ATComment.m in Sources */,
+				61B9AE5B09E7934F00C8908B /* ATDateTimeFieldBody.m in Sources */,
+				61B9AEFD09E7BDA700C8908B /* ATUnstructuredFieldBody.m in Sources */,
+				61B9AFD609E7F00A00C8908B /* ATMailboxListFieldBody.m in Sources */,
+				61B6C0EB09E89798008D9F0C /* ATAddrSpec.m in Sources */,
+				61B6C0F709E8A45A008D9F0C /* ATNameAddr.m in Sources */,
+				61B6C11809E8A6D8008D9F0C /* ATAngleAddr.m in Sources */,
+				61B6C1E309E8BDE6008D9F0C /* ATGroup.m in Sources */,
+				61B6C22E09E8CC33008D9F0C /* ATAddressListFieldBody.m in Sources */,
+				61B650D709E9D7BF00D456E4 /* ATCFWS.m in Sources */,
+				61B650E209E9D88200D456E4 /* ATFWS.m in Sources */,
+				61B6510109EA76D400D456E4 /* ATCtext.m in Sources */,
+				61B6510A09EA77BD00D456E4 /* ATQuotedPair.m in Sources */,
+				61B726A609EBBA550068C79E /* ATTimeOfDay.m in Sources */,
+				B8C943C121D5097F00D5F2BF /* ATIDPool.m in Sources */,
+				61ECC71409F3B01A0006E6C3 /* ATKeywordsFieldBody.m in Sources */,
+				61ECC73809F3B8520006E6C3 /* ATMailboxFieldBody.m in Sources */,
+				61ECC7B509F3CE950006E6C3 /* ATBccFieldBody.m in Sources */,
+				61ECC7EE09F3D2A60006E6C3 /* ATMsgIDFieldBody.m in Sources */,
+				61B8CF5C09F4BDBF0028DD47 /* ATPathFieldBody.m in Sources */,
+				61B8CFA509F4C2010028DD47 /* ATReceivedFieldBody.m in Sources */,
+				61B8CFEF09F4CD9D0028DD47 /* ATMsgID.m in Sources */,
+				61EB24F80A95CF7300683DEA /* ATMailAccount.m in Sources */,
+				B8C943C021D5097F00D5F2BF /* ATQuotedPrintableDecoder.m in Sources */,
+				61EB253D0A95D65100683DEA /* ATMailAccountWindowController.m in Sources */,
+				61BD9F5A0AB41E0800474DD7 /* ATPop3Core.m in Sources */,
+				6133577F0AB6F7A700799123 /* ATPop3MessageDownloader.m in Sources */,
+				61315CB60AC2BE4B00A67790 /* ATMIMETokenScanner.m in Sources */,
+				61C5CBC80AC408B800584BE4 /* ATMIMEVersionFieldBody.m in Sources */,
+				61253FDE0AC5385A00A9C35D /* ATContentTypeFieldBody.m in Sources */,
+				61C02D630AC6AB8C00D98EB8 /* ATContentTransferEncodingFieldBody.m in Sources */,
+				61C02D7D0AC6B82800D98EB8 /* ATContentIDFieldBody.m in Sources */,
+				61C02DBB0AC6B9B700D98EB8 /* ATContentDescriptionFieldBody.m in Sources */,
+				610089C30AD27522001B15CA /* ATMultipartBody.m in Sources */,
+				61F838760AEE45B300820D75 /* ATEncodedWord.m in Sources */,
+				61C41DAD0AF45614003E8038 /* ATMessageDownloaderWindowController.m in Sources */,
+				6136EBED0B1071AD0016A88D /* ATMessageModel.m in Sources */,
+				61B826F40BC90C9F004D8F19 /* ATMessageEntity.m in Sources */,
+				61C9FE9B0C4A643600B2003F /* ATBodyTextRepresentation.m in Sources */,
+				61BD11B50C8C24C600A8A74A /* ATInternetMessageLineScanner.m in Sources */,
+				61E9F3730C90FEC700F7F6CB /* ATMultipartTokenScanner.m in Sources */,
+				6160FC890C958F9D00618112 /* ATMailSpool.m in Sources */,
+				61F8EAA80CBFA33700A7DB3F /* ATMailDocumentWindowController.m in Sources */,
+				61A63E9F0CC0F20E00566DD6 /* ATMailSpoolModel.m in Sources */,
+				61F4C2A00CD7092E001AC8E7 /* MyTextView.m in Sources */,
+				B8C943BF21D5097F00D5F2BF /* ATBase64Processor.m in Sources */,
+				61F846970CDDE7EF00C4F50A /* ATOctetStreamRepresentation.m in Sources */,
+				61FBB2C10CE52C2F00C89506 /* ATContentDispositionFieldBody.m in Sources */,
+				612FD7F80D1A9EE400D1B126 /* ATMessageTablePane.m in Sources */,
+				612546270D1CA764006420F9 /* ATMessageOutlinePane.m in Sources */,
+				B8C943C221D5097F00D5F2BF /* ATBase64Decoder.m in Sources */,
+				6125475E0D1CD4E6006420F9 /* ATMessageTextPane.m in Sources */,
+				612547630D1CD585006420F9 /* ATMessageImagePane.m in Sources */,
+				61CCE8640D1E6D76005381FE /* ATMessagesPane.m in Sources */,
+				61CCE9EC0D1E734D005381FE /* ATMailPane.m in Sources */,
+				61CCE9FB0D1E7550005381FE /* ATMessagePane.m in Sources */,
+				61CB15EB0D1F8BDA001E64F7 /* ATEntityHeaderPane.m in Sources */,
+				61CB17490D1F90AB001E64F7 /* ATEntityOutlinePane.m in Sources */,
+				61F487060D1FDEC50054DD69 /* ATHTMLPane.m in Sources */,
+				617E19660D4F2E120085FFB2 /* ATMailDocumentController.m in Sources */,
+				61E08A830D51E80800677766 /* ATMailbox.m in Sources */,
+				61DB4C2B0D52D86F009B9E7C /* ATMailboxesOutlineDataSource.m in Sources */,
+				61DB4EE50D5337E0009B9E7C /* ATMailboxesOutlinePane.m in Sources */,
+				611C48660D923CA700C42357 /* ATFilterEditor.m in Sources */,
+				611C486E0D923CCE00C42357 /* ATFilter.m in Sources */,
+				611C49BF0D92938700C42357 /* ATFilterEditorWindowController.m in Sources */,
+				61DC713B0E1722AD008A2D85 /* ATMessageOutlineView.m in Sources */,
+				61F15B3A0EE175D200D4875D /* ATMessagesModel.m in Sources */,
+				610E301C0F0B88CB0056E834 /* ATItemsPane.m in Sources */,
+				61E58CF70F0C54160060BFA3 /* ATThreadsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* ATMailDocumentWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B73B4A0A9DAD1A006D1C0D /* Japanese */,
+			);
+			name = ATMailDocumentWindow.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B73B470A9DAD07006D1C0D /* Japanese */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		61B73B630A9DADA5006D1C0D /* ATMailAccountWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B73B650A9DADAE006D1C0D /* Japanese */,
+			);
+			name = ATMailAccountWindow.nib;
+			sourceTree = "<group>";
+		};
+		61C41DA80AF454DE003E8038 /* ATMessageDownloaderWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C41DA90AF454DE003E8038 /* Japanese */,
+			);
+			name = ATMessageDownloaderWindow.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61CA3FEE0CD0A5F800F6ADF9 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../../../Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ATMail_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = ATMail;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		61CA3FEF0CD0A5F800F6ADF9 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../../../Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ATMail_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = ATMail;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		61CA3FF00CD0A5F800F6ADF9 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../../../Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../../../Build/Debug\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ATMail_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ATMail;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		61CA3FF20CD0A5F800F6ADF9 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "";
+			};
+			name = Development;
+		};
+		61CA3FF30CD0A5F800F6ADF9 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "";
+			};
+			name = Deployment;
+		};
+		61CA3FF40CD0A5F800F6ADF9 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61CA3FED0CD0A5F800F6ADF9 /* Build configuration list for PBXNativeTarget "ATMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CA3FEE0CD0A5F800F6ADF9 /* Development */,
+				61CA3FEF0CD0A5F800F6ADF9 /* Deployment */,
+				61CA3FF00CD0A5F800F6ADF9 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		61CA3FF10CD0A5F800F6ADF9 /* Build configuration list for PBXProject "ATMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CA3FF20CD0A5F800F6ADF9 /* Development */,
+				61CA3FF30CD0A5F800F6ADF9 /* Deployment */,
+				61CA3FF40CD0A5F800F6ADF9 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
