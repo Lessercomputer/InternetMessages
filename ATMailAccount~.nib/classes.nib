@@ -1,0 +1,35 @@
+{
+    IBClasses = (
+        {
+            CLASS = ATMailAccountWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                disconnect = id; 
+                download = id; 
+                interpretAddressList = id; 
+                interpretCFWS = id; 
+                interpretDateTime = id; 
+                interpretMailbox = id; 
+                interpretMailboxList = id; 
+                interpretMsgID = id; 
+                interpretNameValList = id; 
+                sendCommand = id; 
+                showMailAccount = id; 
+            }; 
+            CLASS = ATMailDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = NSObjectController; 
+                messageHeaderController = NSArrayController; 
+                messagesController = NSArrayController; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

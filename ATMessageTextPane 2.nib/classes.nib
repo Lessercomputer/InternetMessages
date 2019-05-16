@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            CLASS = ATMailPane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {contentView = id; view = id; }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {CLASS = ATMessagePane; LANGUAGE = ObjC; SUPERCLASS = ATMailPane; }, 
+        {CLASS = ATMessageTextPane; LANGUAGE = ObjC; SUPERCLASS = ATMessagePane; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

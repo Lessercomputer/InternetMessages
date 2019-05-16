@@ -1,0 +1,99 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                cancel = id; 
+                disconnect = id; 
+                download = id; 
+                downloadCanceled = id; 
+                downloadFinished = id; 
+                importMessages = id; 
+                interpretAddressList = id; 
+                interpretCFWS = id; 
+                interpretDateTime = id; 
+                interpretMailbox = id; 
+                interpretMailboxList = id; 
+                interpretMsgID = id; 
+                interpretNameValList = id; 
+                rebuildCacheHeader = id; 
+                sendCommand = id; 
+                showAddressListTester = id; 
+                showCFWSTester = id; 
+                showDateTimeTester = id; 
+                showMailAccount = id; 
+                showMailboxListTester = id; 
+                showMailboxTester = id; 
+                showMsgIDTester = id; 
+                showNameValListTester = id; 
+            }; 
+            CLASS = ATMailDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = NSObjectController; 
+                currentMessage = id; 
+                messageHeaderController = NSArrayController; 
+                messageModel = id; 
+                messagesController = NSArrayController; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {
+                applyFiltersToSelectedMessages = id; 
+                makeSelectionsRead = id; 
+                makeSelectionsToBeRead = id; 
+                saveBodyOfSelectedEntity = id; 
+                showCurrentMessageInFinder = id; 
+                toggleEntityDrawer = id; 
+                toggleMailboxesDrawer = id; 
+                turnMessagesViewTo = id; 
+            }; 
+            CLASS = ATMailDocumentWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                currentMessagePane = id; 
+                currentMessagesPane = id; 
+                dummyEntityHeaderView = id; 
+                dummyEntityOutlineView = id; 
+                dummyMessageView = id; 
+                dummyMessagesView = id; 
+                entityHeaderDrawer = id; 
+                entityHeaderDrawerContentView = id; 
+                entitySplitView = id; 
+                mailSpoolModel = id; 
+                mailboxesDrawer = id; 
+                messagesModelController = NSObjectController; 
+                splitView = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {filterMessagesOfCurrentMailbox = id; }; 
+            CLASS = ATMailSpoolModel; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ATMessageModel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bodyPartOrMultipartBody = id; 
+                browserView = id; 
+                mailSpoolModel = ATMailSpoolModel; 
+                messageBodyView = id; 
+                outlineView = id; 
+                selectedPartHeaderView = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {cancel = id; download = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {newMailSpool = id; openNewMailSpool = id; selectSavingFolder = id; }; 
+            CLASS = ATAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {window = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                myAction = id; 
+                showAddressListTester = id; 
+                showCFWSTester = id; 
+                showDateTimeTester = id; 
+                showMailAccount = id; 
+                showMailboxListTester = id; 
+                showMailboxTester = id; 
+                showMsgIDTester = id; 
+                showNameValListTester = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

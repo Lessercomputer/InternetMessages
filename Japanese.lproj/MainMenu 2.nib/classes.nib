@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {newMailSpool = id; openNewMailSpool = id; selectSavingFolder = id; }; 
+            CLASS = ATAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {window = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ATMailDocumentController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSDocumentController; 
+        }, 
+        {
+            ACTIONS = {
+                addIsolatedMessagesToInbox = id; 
+                applyFiltersToSelectedMessages = id; 
+                download = id; 
+                importMessages = id; 
+                makeNewMailbox = id; 
+                makeSelectionsRead = id; 
+                makeSelectionsToBeRead = id; 
+                myAction = id; 
+                rebuildCacheHeader = id; 
+                saveBodyOfSelectedEntity = id; 
+                showAddressListTester = id; 
+                showCFWSTester = id; 
+                showCurrentMessageInFinder = id; 
+                showDateTimeTester = id; 
+                showFilterEditor = id; 
+                showMailAccount = id; 
+                showMailboxListTester = id; 
+                showMailboxTester = id; 
+                showMsgIDTester = id; 
+                showNameValListTester = id; 
+                toggleMailSpoolOutlineDrawer = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

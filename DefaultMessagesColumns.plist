@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>itemIDString</string>
+		<key>width</key>
+		<integer>40</integer>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>isToBeRead</string>
+		<key>width</key>
+		<integer>40</integer>
+	</dict>
+	<dict>
+		<key>ascending</key>
+		<true/>
+		<key>identifier</key>
+		<string>subjectString</string>
+		<key>sortKey</key>
+		<string>subjectString</string>
+		<key>width</key>
+		<integer>421</integer>
+	</dict>
+	<dict>
+		<key>ascending</key>
+		<true/>
+		<key>identifier</key>
+		<string>fromString</string>
+		<key>sortKey</key>
+		<string>fromString</string>
+		<key>width</key>
+		<integer>421</integer>
+	</dict>
+	<dict>
+		<key>ascending</key>
+		<true/>
+		<key>identifier</key>
+		<string>toString</string>
+		<key>sortKey</key>
+		<string>toString</string>
+		<key>width</key>
+		<integer>181</integer>
+	</dict>
+	<dict>
+		<key>ascending</key>
+		<true/>
+		<key>identifier</key>
+		<string>dateString</string>
+		<key>sortKey</key>
+		<string>date.body.value</string>
+		<key>width</key>
+		<integer>267</integer>
+	</dict>
+</array>
+</plist>
