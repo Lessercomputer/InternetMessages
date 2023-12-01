@@ -1,7 +1,3 @@
-# ATMail
-
-昔、Mac OS X 10.4 Tiger で開発していたメールソフトです。
-RFC2822（3822では無い）やMIMEの一部に対応しています。
-また、POP3の受信も可能です。
-しかし、長いこと開発を停止しているので、実用にはならないと思います。
-メールの作成機能や送信機能はありません。
+> [!WARNING]
+> This repository is currently not maintained.
+> The application was implemanted in 2006 beween 2008.
